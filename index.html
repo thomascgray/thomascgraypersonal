@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>THOMAS C GRAY</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
+    <style>
+      * {
+        font-family: 'Poppins', sans-serif;
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+      }
+
+      html {
+        height: 100%;
+        background-color: #fff;
+      }
+
+      body {
+        text-align: center;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 3em;
+        margin-bottom: 0.4em;
+        text-shadow: 4px 4px #444;
+        font-weight: 900;
+      }
+
+      a {
+        text-decoration: underline;
+      }
+
+      a:hover {
+        color: #2c3e50;
+      }
+
+      li > a {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.3em;
+        text-shadow: 2px 2px #EEE;
+        text-decoration: none;
+      }
+     
+      li {
+        list-style: none;
+        padding: 1.6em 1em;
+        
+      }
+
+      ::selection {
+        background: #fd79a8; /* WebKit/Blink Browsers */
+      }
+     
+    </style>
+
+    <script>
+      const colourPairs = {
+        red: ["#e74c3c", "#c0392b", "#fbe5e2"],
+        blue: ["#3498db", "#2980b9", "#f0f7fc"],
+        purple: ["#9b59b6", "#8e44ad", "#f7f2f9"],
+        orange: ["#e67e22", "#d35400", "#fcf2e8"],
+        green: ["#2ecc71", "#27ae60", "#edfbf3"],
+        turquoise: ["#1abc9c", "#16a085", "#eafcf8"],
+      }
+
+      const colourScheme = Object.keys(colourPairs)[Math.floor(Math.random() * Object.keys(colourPairs).length)];
+
+      document.head.insertAdjacentHTML("beforeend", `
+        <style>
+          h1 { color: ${colourPairs[colourScheme][0]}; }
+          a { color: ${colourPairs[colourScheme][0]}; }
+          a:hover { color: ${colourPairs[colourScheme][1]}; }
+
+          li > a { border-bottom: 1px solid ${colourPairs[colourScheme][0]}; }
+
+          li:nth-of-type(odd) { background: ${colourPairs[colourScheme][2]}; } 
+        </style>
+      `)
+
+    </script>
+
+    <script src="https://kit.fontawesome.com/1d1167be13.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="p-4">
+    <h1>THOMAS C GRAY</h1>
+
+    <ul class="space-y-6">
+      <li>
+        <a target="_blank" href="https://twitter.com/tmcgry"><i class="fab fa-twitter"></i> @TMCGRY</a>
+        <p>Software, TTRPGs, video games, shit posting.</p>
+      </li>
+
+      <li>
+        <a target="_blank" href="https://tomsdrawinggame.co.uk/"><i class="fas fa-gamepad"></i> TOM'S DRAWING GAME</a>
+        <p>A made a funny, very rude, very NSFW multiplayer game. No points, no scores, no stress.</p>
+      </li>
+
+      <li>
+        <a target="_blank" href="https://thunderchild15.itch.io/"><i class="fas fa-dice-d20"></i> TABLE TOP ROLE PLAYING GAMES</a>
+        <p>Sometimes I write TTRPGs. They tend to be short, comedic, rules light and nonsense heavy.</p>
+      </li>
+      
+      <li>
+        <a target="_blank" href="https://fcgui.netlify.app/">Fantasy Content Generator</a>
+        <p>Like Faker.js, but for D&D 5E themed pieces of content.</p>
+      </li>
+
+      <li>
+        <a target="_blank" href="https://medium.com/@tom.c.gray"
+          >Medium.com Articles</a
+        >
+        <p>
+          Various articles I've written, including
+          <a target="_blank"
+            href="https://medium.com/@tom.c.gray/d-d-5e-spellcasting-rules-explained-in-a-way-that-actually-makes-f-king-sense-5a8c33d378da"
+            >D&D 5E Spellcasting Rules Explained In A Way That Actually Makes
+            Fucking Sense</a
+          >.
+        </p>
+      </li>
+
+      <li>
+        <a target="_blank" href="https://alicegray.github.io/">GERTY GRAY FX</a>
+        <p>
+          Small portfolio I did for my
+          <a target="_blank" href="https://www.instagram.com/alicegertymu/"
+            >wife</a
+          >
+          who is
+          <a target="_blank" href="https://www.instagram.com/p/CIQ3zAqp881/"
+            >extremely</a
+          >
+          <a target="_blank" href="https://www.instagram.com/p/B_XqzrGJzxw/"
+            >talented</a
+          >.
+        </p>
+      </li>
+
+      <li>
+        <a target="_blank" href="https://odms.netlify.app/"
+          >ODMS</a
+        >
+        <p>An Opinionated Dungeon Master Screen for running D&D 5E games.</p>
+      </li>
+
+      <li>
+        <a target="_blank" href="http://thomascgray.github.io/"
+          >Thomas C Gray CV</a
+        >
+        <p>
+          I'm actually quite nice and (mostly) know what I'm
+          talking about.
+        </p>
+      </li>
+    </ul>
+  </body>
+</html>
