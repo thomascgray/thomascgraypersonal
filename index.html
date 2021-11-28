@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
     <title>THOMAS C GRAY</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
     <style>
       * {
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
         padding: 0;
         margin: 0;
         font-size: 1em;
@@ -41,23 +44,20 @@
       }
 
       li > a {
-        text-transform: uppercase;
         font-weight: 700;
         font-size: 1.3em;
-        text-shadow: 2px 2px #EEE;
+        text-shadow: 2px 2px #eee;
         text-decoration: none;
       }
-     
+
       li {
         list-style: none;
         padding: 1.6em 1em;
-        
       }
 
       ::selection {
         background: #fd79a8; /* WebKit/Blink Browsers */
       }
-     
     </style>
 
     <script>
@@ -68,11 +68,16 @@
         orange: ["#e67e22", "#d35400", "#fcf2e8"],
         green: ["#2ecc71", "#27ae60", "#edfbf3"],
         turquoise: ["#1abc9c", "#16a085", "#eafcf8"],
-      }
+      };
 
-      const colourScheme = Object.keys(colourPairs)[Math.floor(Math.random() * Object.keys(colourPairs).length)];
+      const colourScheme =
+        Object.keys(colourPairs)[
+          Math.floor(Math.random() * Object.keys(colourPairs).length)
+        ];
 
-      document.head.insertAdjacentHTML("beforeend", `
+      document.head.insertAdjacentHTML(
+        "beforeend",
+        `
         <style>
           h1 { color: ${colourPairs[colourScheme][0]}; }
           a { color: ${colourPairs[colourScheme][0]}; }
@@ -82,11 +87,14 @@
 
           li:nth-of-type(odd) { background: ${colourPairs[colourScheme][2]}; } 
         </style>
-      `)
-
+      `
+      );
     </script>
 
-    <script src="https://kit.fontawesome.com/1d1167be13.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/1d1167be13.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body class="p-4">
@@ -94,28 +102,61 @@
 
     <ul class="space-y-6">
       <li>
-        <a target="_blank" href="https://twitter.com/tmcgry"><i class="fab fa-twitter"></i> @TMCGRY</a>
+        <a target="_blank" href="https://twitter.com/tmcgry"
+          ><i class="fab fa-twitter"></i> @tmcgry</a
+        >
         <p>Software, TTRPGs, video games, shit posting.</p>
       </li>
 
       <li>
-        <a target="_blank" href="https://tomsdrawinggame.co.uk/"><i class="fas fa-gamepad"></i> TOM'S DRAWING GAME</a>
-        <p>A made a funny, very rude, very NSFW multiplayer game. No points, no scores, no stress.</p>
+        <a target="_blank" href="https://tomsdrawinggame.co.uk/"
+          >Tom's Drawing Game</a
+        >
+        <p>
+          A made a funny, very rude, very NSFW multiplayer game. No points, no
+          scores, no stress.
+        </p>
       </li>
 
       <li>
-        <a target="_blank" href="https://thunderchild15.itch.io/"><i class="fas fa-dice-d20"></i> TABLE TOP ROLE PLAYING GAMES</a>
-        <p>Sometimes I write TTRPGs. They tend to be short, comedic, rules light and nonsense heavy.</p>
+        <a target="_blank" href="https://thunderchild15.itch.io/"
+          >Table Top Role Playing Games</a
+        >
+        <p>
+          Sometimes I write TTRPGs. They tend to be short, rules light, and
+          nonsense heavy.
+        </p>
       </li>
-      
+
       <li>
-        <a target="_blank" href="https://fcgui.netlify.app/">Fantasy Content Generator</a>
+        <a target="_blank" href="https://fcgui.netlify.app/"
+          >Fantasy Content Generator</a
+        >
         <p>Like Faker.js, but for D&D 5E themed pieces of content.</p>
       </li>
-      
+
       <li>
-        <a target="_blank" href="https://www.redbubble.com/people/thunderchild15/explore?asc=u&page=1&sortOrder=recent">Digital Art</a>
-        <p>Every now and then, when the mood strikes, I'll do some digital art. If, for whatever reason I dare not think about, you want to get any of it printed on a bag or a cushion or something, you can.</p>
+        <a target="_blank" href="https://ttrpg-paper-props.netlify.app/"
+          >TTRPG Paper Props</a
+        >
+        <p>
+          A webapp to make paper'ish props for RPGs (newspaper clippings, wanted
+          posters, character cards, handwritten letters, etc.) so you can
+          screenshot them and paste them into your VTT of choice.
+        </p>
+      </li>
+
+      <li>
+        <a
+          target="_blank"
+          href="https://www.redbubble.com/people/thunderchild15/explore?asc=u&page=1&sortOrder=recent"
+          >Digital Art</a
+        >
+        <p>
+          Every now and then, when the mood strikes, I'll do some digital art.
+          If, for whatever reason I dare not think about, you want to get any of
+          it printed on a bag or a cushion or something, you can.
+        </p>
       </li>
 
       <li>
@@ -124,7 +165,8 @@
         >
         <p>
           Various articles I've written, including
-          <a target="_blank"
+          <a
+            target="_blank"
             href="https://medium.com/@tom.c.gray/d-d-5e-spellcasting-rules-explained-in-a-way-that-actually-makes-f-king-sense-5a8c33d378da"
             >D&D 5E Spellcasting Rules Explained In A Way That Actually Makes
             Fucking Sense</a
@@ -133,26 +175,17 @@
       </li>
 
       <li>
-        <a target="_blank" href="https://alicegray.github.io/">GERTY GRAY FX</a>
+        <a target="_blank" href="https://alicegray.github.io/">Gerty Gray FX</a>
         <p>
-          Small portfolio I did for my
+          But really you should check
           <a target="_blank" href="https://www.instagram.com/alicegertymu/"
-            >wife</a
-          >
-          who is
-          <a target="_blank" href="https://www.instagram.com/p/CIQ3zAqp881/"
-            >extremely</a
-          >
-          <a target="_blank" href="https://www.instagram.com/p/B_XqzrGJzxw/"
-            >talented</a
+            >her instagram</a
           >.
         </p>
       </li>
 
       <li>
-        <a target="_blank" href="https://odms.netlify.app/"
-          >ODMS</a
-        >
+        <a target="_blank" href="https://odms.netlify.app/">ODMS</a>
         <p>An Opinionated Dungeon Master Screen for running D&D 5E games.</p>
       </li>
 
@@ -160,10 +193,7 @@
         <a target="_blank" href="http://thomascgray.github.io/"
           >Thomas C Gray CV</a
         >
-        <p>
-          I'm actually quite nice and (mostly) know what I'm
-          talking about.
-        </p>
+        <p>I'm actually quite nice and (mostly) know what I'm talking about.</p>
       </li>
     </ul>
   </body>
